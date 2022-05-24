@@ -3,7 +3,6 @@ def test_check_add_to_cart(browser):
     button.click()
 
     message = browser.find_element_by_class_name("alertinner ")
-    print("Coders at Work" in message.text)
     assert "Coders at Work" in message.text, "Its not added in cart"
 
 
