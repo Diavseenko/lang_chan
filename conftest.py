@@ -27,12 +27,3 @@ def browser(request):
     yield browser
     print("\nquit browser..")
     browser.quit()
-
-
-#@pytest.fixture()
-#def browser(request):
-#    print("\nstart browser..")
-#    browser = webdriver.Chrome()
-#    yield browser
-#    print("\nclose browser..")
-#    browser.quit()
